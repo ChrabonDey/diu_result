@@ -20,7 +20,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        `http://localhost:3001/api/result?studentId=${studentId}&semesterId=${semesterId}`
+        `https://sibly-tofail-server-hweulsam3-chrabon-deys-projects.vercel.app/api/result?studentId=${studentId}&semesterId=${semesterId}`
       );
 
       if (!response.ok) {
