@@ -20,7 +20,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        `https://sibly-tofail-server-hweulsam3-chrabon-deys-projects.vercel.app/api/result?studentId=${studentId}&semesterId=${semesterId}`
+        `https://siblyserver-ks5afztv5-chrabon-deys-projects.vercel.app//api/result?studentId=${studentId}&semesterId=${semesterId}`
       );
 
       if (!response.ok) {
