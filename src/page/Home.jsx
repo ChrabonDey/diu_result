@@ -77,7 +77,7 @@ export default function Home() {
             }`}
           >
             {loading ? <div class="relative flex justify-center items-center">
-    <div class="absolute animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-purple-500"></div>
+    <div class="absolute animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-purple-500"></div>
      <img src={img1} alt="" className="rounded-full h-16 w-16 object-contain" />
 </div> : '🔍 Show Result'}
           </button>
