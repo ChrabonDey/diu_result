@@ -84,6 +84,9 @@ export default function Home() {
           {error && <p className="text-red-600 text-sm text-center">{error}</p>}
         </div>
       </div>
+      <div className='text-gray-400'>
+        @Chrabondey
+      </div>
     </div>
   );
 }

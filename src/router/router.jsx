@@ -6,10 +6,11 @@ import {
 import Home from '../page/Home';
 import ResultPage from '../page/ResultPage';
 
+
 export const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home></Home>,
+      element:<Home></Home>,
     },
     {
          path:"/result",
