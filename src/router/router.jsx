@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
 import Home from '../page/Home';
 import ResultPage from '../page/ResultPage';
+import NotFound from '../Notfound/Not-found';
 
 
 export const router = createBrowserRouter([
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
     {
          path:"/result",
          element:<ResultPage></ResultPage>
+    },
+    {
+       path:"*",
+       element:<NotFound></NotFound>
     }
   ]);
 
